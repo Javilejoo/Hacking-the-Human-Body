@@ -116,7 +116,7 @@ ipython_config.py
 #pdm.toml
 .pdm-python
 .pdm-build/
-
+.venv312
 # pixi
 #   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
 #pixi.lock
@@ -143,6 +143,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.venv312/
 
 # Spyder project settings
 .spyderproject
@@ -154,6 +155,10 @@ venv.bak/
 # mkdocs documentation
 /site
 
+
+// images
+/data/processed/images/
+/data/processed/masks/
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -167,7 +172,8 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-
+data/train_annotations/
+data/train_images/
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
