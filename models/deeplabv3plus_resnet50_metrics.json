@@ -1,0 +1,11 @@
+{
+  "model_name": "DeepLab V3+ with ResNet50",
+  "mean_dice": 0.6794,
+  "mean_iou": 0.5469,
+  "accuracy": 0.9571,
+  "precision": 0.8383,
+  "recall": 0.762,
+  "f1_score": 0.7984,
+  "encoder": "resnet50",
+  "classes": 1
+}

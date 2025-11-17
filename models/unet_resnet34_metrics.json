@@ -1,0 +1,7 @@
+{
+  "model_name": "U-Net with ResNet34",
+  "mean_dice": 0.6006998368671962,
+  "mean_iou": 0.5495822029454368,
+  "encoder": "resnet34",
+  "classes": 1
+}
