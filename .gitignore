@@ -208,6 +208,12 @@ data/train_images/
 .cursorignore
 .cursorindexingignore
 
+# Model files (large binary files)
+models/*.pth
+models/*.pt
+*.pth
+*.pt
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
